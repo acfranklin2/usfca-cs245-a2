@@ -177,7 +177,6 @@ public class CS245A2 {
 		aName = capitalsTest(aName);
 		//This is a test to see if a name can be equated to another actor's name even if the capitalization is different.
 		while(!actorNames.contains(aName)) {
-			System.out.println(aName);
 			System.out.println("I can't find that actor in this database. Please input another.");
 			aName = input.nextLine();
 			aName = capitalsTest(aName);
